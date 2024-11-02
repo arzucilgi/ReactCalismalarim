@@ -1,0 +1,48 @@
+#root {
+    height: 100vh;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    width: 180px;
+    height: 200px;
+}
+
+.cards {
+    width: 220px;
+    height: 300px;
+    box-shadow: 1px 1px 15px gray;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.another {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
